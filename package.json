@@ -1,0 +1,14 @@
+{
+  "name": "scott-simpson-photography",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Image-first photography storefront with batch gallery importer",
+  "scripts": {
+    "start": "npx serve .",
+    "check": "node scripts/check-site.mjs"
+  },
+  "devDependencies": {
+    "fflate": "^0.8.2",
+    "serve": "^14.2.4"
+  }
+}

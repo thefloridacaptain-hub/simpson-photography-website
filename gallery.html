@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Browse fine-art photographs by Scott Simpson and license digital files for personal screens or customer-arranged printing.">
+  <title>Gallery | Scott Simpson Photography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Manrope:wght@300;400;500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="light-page">
+  <header class="site-header header-solid" data-header>
+    <a class="wordmark" href="index.html"><span>Scott Simpson</span><small>Photography</small></a>
+    <button type="button" class="menu-button" data-menu-button aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" data-nav><a class="active" href="gallery.html">Gallery</a><a href="licensing.html">Licensing</a><a href="about.html">About</a><a class="nav-cta" href="gallery.html">Browse the collection</a></nav>
+  </header>
+  <main>
+    <section class="page-intro">
+      <p class="eyebrow">Available work</p><h1>The collection</h1>
+      <p>Select a photograph to view licensing options. Every displayed image is a reduced-resolution, watermarked preview—not the purchased file.</p>
+    </section>
+    <section class="gallery-toolbar" aria-label="Gallery filters">
+      <div data-filters><button type="button" class="filter active" data-filter="all">All</button><button type="button" class="filter" data-filter="alaska">Alaska</button><button type="button" class="filter" data-filter="ocean">Ocean</button><button type="button" class="filter" data-filter="maritime">Maritime</button><button type="button" class="filter" data-filter="travel">Travel</button></div>
+      <p><span data-count>0</span> photographs</p>
+    </section>
+    <section class="photo-grid" data-gallery aria-live="polite"></section>
+    <section class="empty-gallery" data-empty hidden>
+      <p class="eyebrow">Collection setup</p><h2>Your gallery is ready for photographs.</h2>
+      <p>Open <strong>Batch Import</strong>, select a group of preview copies, and the tool will watermark, resize and prepare the entire gallery update together.</p>
+      <a class="button button-dark" href="admin.html">Open batch importer</a>
+    </section>
+  </main>
+
+  <dialog class="photo-dialog" data-dialog>
+    <button type="button" class="dialog-close" data-close aria-label="Close photograph">×</button>
+    <div class="dialog-image-wrap"><img data-dialog-image src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Selected photograph" draggable="false"><div class="preview-shield" aria-hidden="true"></div></div>
+    <div class="dialog-details">
+      <p class="eyebrow" data-dialog-category></p><h2 data-dialog-title>Selected photograph</h2><p class="photo-location" data-dialog-location></p><p data-dialog-description></p>
+      <div class="buy-options">
+        <button type="button" class="buy-card" data-buy="desktop"><span>Desktop license</span><strong data-desktop-price></strong><small>Personal screens · web resolution</small></button>
+        <button type="button" class="buy-card" data-buy="print"><span>Print-ready license</span><strong data-print-price></strong><small>Personal printing · high resolution</small></button>
+      </div>
+      <p class="purchase-note">Copyright remains with Scott Simpson. Purchase grants the selected personal-use license; it does not transfer copyright.</p>
+    </div>
+  </dialog>
+
+  <dialog class="setup-dialog" data-setup-dialog><button type="button" class="dialog-close" data-setup-close aria-label="Close">×</button><div><p class="eyebrow">Checkout setup required</p><h2>This photograph is not connected to checkout yet.</h2><p>Add its payment link in <code>assets/js/gallery-data.js</code>. The beginner README shows exactly where it goes.</p><button type="button" class="button button-dark" data-setup-close>Understood</button></div></dialog>
+  <footer class="site-footer footer-dark"><a class="wordmark" href="index.html"><span>Scott Simpson</span><small>Photography</small></a><div><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></div><p>© <span data-year></span> Scott Simpson Photography.</p></footer>
+  <script src="assets/js/gallery-data.js"></script><script src="assets/js/site.js" defer></script><script src="assets/js/gallery.js" defer></script>
+</body>
+</html>
