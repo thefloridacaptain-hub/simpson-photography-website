@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Scott Simpson Photography initial</title>
+  <defs>
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0D7F63"/>
+      <stop offset="0.36" stop-color="#20BFA4"/>
+      <stop offset="0.66" stop-color="#68C9D5"/>
+      <stop offset="1" stop-color="#7960A9"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="38" fill="#050505"/>
+  <path d="M 115 125 C 210 112, 307 112, 397 126" fill="none" stroke="url(#aurora)" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#F3EFE6" aria-hidden="true">
+<path d="M620 -29Q491 -29 397.0 11.0Q303 51 240 121L147 -20H113V391H152Q168 309 203.0 240.0Q238 171 293.5 120.0Q349 69 425.5 40.5Q502 12 602 12Q708 12 785.5 48.0Q863 84 905.0 152.5Q947 221 947 320Q947 408 904.0 468.5Q861 529 789.5 573.5Q718 618 633.0 655.5Q548 693 463.0 734.0Q378 775 306.5 829.5Q235 884 192.0 961.5Q149 1039 149 1150Q149 1261 205.0 1344.0Q261 1427 355.5 1473.5Q450 1520 564 1520Q663 1520 746.0 1488.5Q829 1457 890 1393L983 1520H1016V1109H978Q958 1234 903.0 1315.5Q848 1397 766.0 1436.5Q684 1476 583 1476Q440 1476 366.5 1408.5Q293 1341 293 1230Q293 1151 335.5 1096.0Q378 1041 448.0 999.5Q518 958 602.0 921.0Q686 884 770.0 841.5Q854 799 924.0 741.0Q994 683 1036.5 600.5Q1079 518 1079 400Q1079 270 1023.0 173.5Q967 77 864.0 24.0Q761 -29 620 -29Z" transform="translate(160.960 392.000) scale(0.1650000 -0.1650000)"/>
+</g>
+</svg>
